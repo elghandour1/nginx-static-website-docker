@@ -9,9 +9,9 @@ This project demonstrates how to deploy a static HTML/CSS website using a custom
 
 ### Build and Run
 
-# Create a Dockerfile
+Create a Dockerfile
 
-# Paste the below into the file
+Paste the below into the file
 '''
 FROM nginx:latest
 COPY ./Course-Docker/sample-website /usr/share/nginx/html/
