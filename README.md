@@ -12,10 +12,11 @@ This project demonstrates how to deploy a static HTML/CSS website using a custom
 # Create a Dockerfile
 
 # Paste the below into the file
+'''
 FROM nginx:latest
 COPY ./Course-Docker/sample-website /usr/share/nginx/html/
 EXPOSE 80
-
+''' 
 # Build the image from the Dockerfile and run it publishing port 3000 to be mapped to port 80 on the host
 
 $ docker build -t website .
